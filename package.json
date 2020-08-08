@@ -1,0 +1,50 @@
+{
+  "name": "parcel-template-vanilajs",
+  "version": "1.0.0",
+  "description": "boilerplate for workin with parcel",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html --open",
+    "build": "parcel build src/index.html",
+    "clean": "rm -r dist/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amir-anwar/parcel-template-vanila-js.git"
+  },
+  "keywords": [
+    "js",
+    "boilaerplate",
+    "parcel"
+  ],
+  "author": "Amir Anwar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Amir-anwar/parcel-template-vanila-js/issues"
+  },
+  "homepage": "https://github.com/Amir-anwar/parcel-template-vanila-js#readme",
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "autoprefixer": "^9.8.6",
+    "eslint": "^7.6.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "parcel-bundler": "^1.12.4",
+    "postcss-modules": "^3.2.0",
+    "postcss-uncss": "^0.17.0",
+    "prettier": "^2.0.5",
+    "sass": "^1.26.10",
+    "stylelint": "^13.6.1",
+    "stylelint-config-sass-guidelines": "^7.0.0",
+    "stylelint-order": "^4.1.0",
+    "uncss": "^0.17.3"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "dependencies": {}
+}
